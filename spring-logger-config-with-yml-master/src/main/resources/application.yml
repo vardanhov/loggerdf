@@ -1,0 +1,14 @@
+
+
+logging:
+  file: C:/Users/varda/Downloads/file.log
+  pattern:
+    file: "%d %-5level [%thread] %logger{0} : %msg%n"
+  level:
+    org.springframework.web: TRACE
+    guru.springframework.controllers: TRACE
+
+
+
+server:
+  port: 8888

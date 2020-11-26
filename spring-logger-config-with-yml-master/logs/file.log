@@ -1,0 +1,23 @@
+2020-11-21 12:41:27,881 INFO  [main] App : Starting App on DESKTOP-LG6NLDE with PID 7964 (C:\Users\varda\Downloads\spring-logger-config-with-yml-master\spring-logger-config-with-yml-master\target\classes started by varda in C:\Users\varda\Downloads\spring-logger-config-with-yml-master\spring-logger-config-with-yml-master)
+2020-11-21 12:41:27,885 INFO  [main] App : No active profile set, falling back to default profiles: default
+2020-11-21 12:41:27,934 INFO  [main] AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79b06cab: startup date [Sat Nov 21 12:41:27 MSK 2020]; root of context hierarchy
+2020-11-21 12:41:28,997 INFO  [main] TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8888 (http)
+2020-11-21 12:41:29,005 INFO  [main] StandardService : Starting service Tomcat
+2020-11-21 12:41:29,005 INFO  [main] StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.14
+2020-11-21 12:41:29,081 INFO  [localhost-startStop-1] [/] : Initializing Spring embedded WebApplicationContext
+2020-11-21 12:41:29,081 INFO  [localhost-startStop-1] ContextLoader : Root WebApplicationContext: initialization completed in 1147 ms
+2020-11-21 12:41:29,173 INFO  [localhost-startStop-1] ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2020-11-21 12:41:29,177 INFO  [localhost-startStop-1] FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-21 12:41:29,177 INFO  [localhost-startStop-1] FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-21 12:41:29,177 INFO  [localhost-startStop-1] FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-11-21 12:41:29,177 INFO  [localhost-startStop-1] FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-21 12:41:29,397 INFO  [main] RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79b06cab: startup date [Sat Nov 21 12:41:27 MSK 2020]; root of context hierarchy
+2020-11-21 12:41:29,437 INFO  [main] RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-11-21 12:41:29,441 INFO  [main] RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-11-21 12:41:29,457 INFO  [main] SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-21 12:41:29,457 INFO  [main] SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-21 12:41:29,481 INFO  [main] SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-11-21 12:41:29,565 INFO  [main] AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2020-11-21 12:41:29,597 INFO  [main] TomcatEmbeddedServletContainer : Tomcat started on port(s): 8888 (http)
+2020-11-21 12:41:29,605 INFO  [main] App : Started App in 2.144 seconds (JVM running for 3.215)
+2020-11-21 12:41:29,605 INFO  [main] App : Hello from Logback
